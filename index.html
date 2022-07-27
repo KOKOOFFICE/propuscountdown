@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap Css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--Owl Carousel-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <!--Owl Theme-->
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!--Magnific Popup-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--Flaticon-->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <!--Remixicon-->
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <!--Odometer-->
+        <link rel="stylesheet" href="assets/css/odometer.min.css">
+        <!--Aos Css-->
+        <link rel="stylesheet" href="assets/css/aos.css">
+        <!--Style Css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--Dark Css-->
+        <link rel="stylesheet" href="assets/css/dark.css">
+        <!--Responsive Css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <title>PROPUS
+            GENERAL TRADING LLC</title>
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    </head>
+    <body data-bs-spy="scroll" data-bs-offset="70">
+
+        <!-- Start Preloader Area -->
+		<div class="preloader">
+			<div class="loader"></div>
+		</div>
+        <!-- End Preloader Area -->
+
+        <!-- Start Navbar Area -->
+        <nav class="navbar navbar-expand-lg navbar-light nav-style6">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo/logopro.png" class="main-logo" alt="logo">
+                    <img src="assets/images/logo/logo.jpg" class="white-logo" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html"></a></li>
+                    </ul>
+                    <div class="others-options d-flex align-items-center">
+                        <div class="option-item">
+                            <div class="modal-btn">
+                                <i class="ri-menu-fill" data-bs-toggle="modal" data-bs-target="#sidebarModal"></i>
+                            </div>
+                        </div>
+                        <div class="option-item">
+                            <div class="switch-box">
+                                <label id="switch" class="switch">
+                                    <input type="checkbox" onchange="toggleTheme()" id="slider">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar Area -->
+
+        <!-- Sidebar Modal -->
+        <div class="sidebarModal modal right fade" id="sidebarModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-bs-dismiss="modal"><i class="ri-close-line"></i></button>
+
+                    <div class="modal-body">
+                        <a href="index.html">
+                            <img src="assets/images/logo/logo.jpg" class="main-logo" alt="logo">
+                        </a>
+                        <div class="sidebar-content">
+                            <h3>About Us</h3>
+                            <p>Are you in search of quality oriented building materials?
+                                Haven’t you been tired of searching for a committed distributor of
+                                industrial wipes with no compromise on quality?
+                                Where has your search for quality PPE items taken you to?
+                                For all the above questions, we have a single answer : Propus General
+                                Trading LLC, Dubai</p>
+                                <p>Our motto says it all – “Customer centric commitment”
+                                Do business with us; take your business to next level.
+                                </p>
+                        </div>
+                        <div class="sidebar-contact-info">
+                            <h3>Contact Information</h3>
+
+                            <ul class="info-list">
+                                <li><i class="ri-phone-fill"></i> <a href="tel:+97143237776">+971 43237776</a></li>
+                                
+                                <li><i class="ri-mail-line"></i><a> info@propusatrading@ae</a></span></a></li>
+
+                                <li><i class="ri-map-pin-line"></i>PO Box.236547 Office Unit 115
+                                    Al Mansour Building, Al Qusais,
+                                    Dubai, UAE</li>
+                            </ul>
+                        </div>
+                        <ul class="sidebar-social-list">
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="flaticon-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/" target="_blank"><i class="flaticon-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://linkedin.com/?lang=en" target="_blank"><i class="flaticon-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/?lang=en" target="_blank"><i class="flaticon-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Sidebar Modal -->
+
+        <!--Start Coming Soon Area-->
+        <div class="coming-soon-area">
+            <div class="container">
+                <div class="coming-soon-counter">
+                    <div class="list">
+                        <ul id="timer" class="flex-wrap d-flex justify-content-center">
+                            <li id="days" class="align-items-center flex-column d-flex justify-content-center"></li>
+                            <li id="hours" class="align-items-center flex-column d-flex justify-content-center"></li>
+                            <li id="minutes" class="align-items-center flex-column d-flex justify-content-center"></li>
+                            <li id="seconds" class="align-items-center flex-column d-flex justify-content-center"></li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/coming-soon/shape-1.png" class="shape-1" alt="Image">
+                    <img src="assets/images/coming-soon/shape-2.png" class="shape-2" alt="Image">
+                    <img src="assets/images/coming-soon/shape-4.png" class="shape-3" alt="Image">
+                </div>
+                <div class="coming-soon-content ptb-100">
+                    <div class="top-content">
+                        <span>Coming Soon</span>
+                        <h1>We're Launching Our New Website</h1>
+                    </div>
+                    <form class="newsletter-form " data-toggle="validator">
+                        <input type="email" class="form-control" placeholder="Your Email Address" name="EMAIL" required autocomplete="off">
+            
+                        <button class="subscribe-btn" type="submit">
+                            Subscribe Now
+                        </button>
+                        <div id="validator-newsletter" class="form-result"></div>
+                    </form>
+                    <div class="social-links">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="flaticon-facebook-1"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/" target="_blank"><i class="flaticon-twitter-3"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://google.com/" target="_blank"><i class="flaticon-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://linkedin.com/?lang=en" target="_blank"><i class="flaticon-linkedin-1"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <img src="assets/images/coming-soon/coming-soon-1.png" class="coming-soon-shape-1" alt="Image">
+                <img src="assets/images/coming-soon/coming-soon-2.png" class="coming-soon-shape-2" alt="Image">
+                <img src="assets/images/coming-soon/shape-3.png" class="coming-soon-shape-3" alt="Image">
+                <img src="assets/images/coming-soon/shape-5.png" class="coming-soon-shape-4" alt="Image">
+                <img src="assets/images/coming-soon/shape-6.png" class="coming-soon-shape-5" alt="Image">
+            </div>
+        </div>
+        <!--End Coming Soon Area-->
+
+        <!--Start Copyright Area-->
+        <div class="copy-right-area style6 bg-color-f9f5f4">
+            <div class="container">
+                <p>©designed by <a href="#" target="_blank">Ddesign</a></p>
+            </div>
+        </div>
+        <!--End Copyright Area-->
+
+        <!-- Start Go Top Area -->
+        <div class="go-top style6">
+            <i class="ri-arrow-up-s-line"></i>
+            <i class="ri-arrow-up-s-line"></i>
+        </div>
+        <!-- End Go Top Area -->
+        
+        <!-- Jquery js -->
+        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
+        <!-- Bootstrap bundle js -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- Owl Carosel js -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- Magnific popup js -->
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <!-- Aos js -->
+        <script src="assets/js/aos.js"></script>
+        <!-- Odometer js -->    
+        <script src="assets/js/odometer.min.js"></script>
+        <!-- Appear js -->  
+        <script src="assets/js/appear.min.js"></script> 
+        <!-- DownCount js -->  
+        <script src="assets/js/downCount.js"></script>
+        <!-- Mixitup js -->  
+        <script src="assets/js/mixitup.min.js"></script>
+        <!-- Particles js -->  
+        <script src="assets/js/particles.min.js"></script> 
+        <!-- Form Validator js -->    
+        <script src="assets/js/form-validator.min.js"></script>
+        <!-- Contact Form Script js -->    
+        <script src="assets/js/contact-form-script.js"></script>
+        <!-- Ajaxchimp js -->    
+        <script src="assets/js/ajaxchimp.min.js"></script>
+        <!--Custom js-->
+        <script src="assets/js/custom.js"></script>
+    </body>
+
+</html>
